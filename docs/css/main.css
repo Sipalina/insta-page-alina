@@ -8,11 +8,21 @@ body {
 	font-weight: 400;
 	color: #000000;
 	background-color: #424242;
+	
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	background: #F8D353;
+/*background: #FF5F6D;*/  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D);*/  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to bottom, #FFC371, #FF5F6D);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+	/*background: #F8D353;
 	background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
 	background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: linear-gradient(top left, #F8D353, #FF5C5A);
+	background: linear-gradient(top left, #F8D353, #FF5C5A);*/
 	
 	/*background: #0ff;
 	background: -webkit-linear-gradient(top left, #0ff, #0099b7);
