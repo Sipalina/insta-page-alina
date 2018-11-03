@@ -1,6 +1,6 @@
 html,
 body {
-	height: 100%;
+	min-height: 100%;
 }
 
 body {
@@ -9,14 +9,10 @@ body {
 	color: #000000;
 	background-color: #424242;
 	
-background: #8A2387;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-/*background: #FF5F6D;*/  /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D);*/  /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to bottom, #FFC371, #FF5F6D);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F27121, #E94057, #8A2387);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
 
 
 	/*background: #F8D353;
@@ -57,6 +53,8 @@ img {
 	margin-right: auto;
 	text-align: center;
 	padding-top: 50px;
+	
+
 }
 
 .name {
