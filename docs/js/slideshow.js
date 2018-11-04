@@ -7,11 +7,11 @@ $(document).ready(function(){
     function showPhotos(){
     	var i;
     	var slides = $('#instafeed a');
-    	console.log(slides);
-    	console.log(slides.length);//12
+    	// console.log(slides);
+    	// console.log(slides.length);//12
 
     	for (i = 0; i < slides.length; i++ ){
-             console.log(i);
+             //console.log(i);
              $(slides[i]).hide();
     	}
 
